@@ -2,7 +2,6 @@
 
 A modern and responsive landing page for **Taza Masala**, a fictional Indian spices brand. The project is designed to showcase premium Indian spices with an attractive user interface, smooth animations, responsive layouts, and interactive product cards.
 
-![Taza Masala Banner](./public/images/hero-masala.png)
 
 ## 🚀 Live Demo
 
