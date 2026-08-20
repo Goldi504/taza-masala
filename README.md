@@ -9,8 +9,7 @@ A modern and responsive landing page for **Taza Masala**, a fictional Indian spi
 
 Example:
 
-https://taza-masala.vercel.app
-
+](https://taza-masala-sable.vercel.app/)
 ---
 
 ## 📌 Features
