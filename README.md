@@ -1,36 +1,85 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌶️ Taza Masala
 
-## Getting Started
+A modern and responsive landing page for **Taza Masala**, a fictional Indian spices brand. The project is designed to showcase premium Indian spices with an attractive user interface, smooth animations, responsive layouts, and interactive product cards.
 
-First, run the development server:
+![Taza Masala Banner](./public/images/hero-masala.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Live Demo
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🔗 **Live Website:** Add your Vercel deployment link here
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Example:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+https://taza-masala.vercel.app
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 📌 Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- 🌶️ Modern and attractive landing page
+- 📱 Fully responsive design
+- 🎨 Premium UI with custom color combinations
+- 🧂 Product showcase section
+- ❤️ Interactive wishlist button
+- 🛒 Add to cart interaction
+- ⭐ Product ratings display
+- ✨ Smooth hover effects and animations
+- 📖 Brand story section
+- 🍲 Recipe section
+- 🎯 Call-to-action sections
+- 🦶 Professional footer
+- ⚡ Built with Next.js and TypeScript
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🛠️ Tech Stack
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The project is built using:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Next.js**
+- **React**
+- **TypeScript**
+- **Tailwind CSS**
+- **Lucide React Icons**
+
+---
+
+## 📂 Project Structure
+
+```text
+taza-masala/
+│
+├── app/
+│   ├── favicon.ico
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+│
+├── components/
+│   ├── Navbar.tsx
+│   ├── Hero.tsx
+│   ├── StorySection.tsx
+│   ├── ProductsSection.tsx
+│   ├── ProductCard.tsx
+│   ├── WhyChooseUs.tsx
+│   ├── RecipesSection.tsx
+│   ├── RecipeCard.tsx
+│   ├── CTASection.tsx
+│   ├── FeaturesBar.tsx
+│   ├── SectionTitle.tsx
+│   └── Footer.tsx
+│
+├── public/
+│   └── images/
+│       ├── hero-masala.png
+│       ├── haldi.jpg
+│       ├── dhania.jpg
+│       ├── kali-mirch.jpg
+│       ├── lal-mirch.jpg
+│       ├── garam-masala.jpg
+│       └── ...
+│
+├── package.json
+├── next.config.ts
+├── tsconfig.json
+└── README.md
