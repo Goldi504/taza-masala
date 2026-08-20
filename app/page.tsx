@@ -11,14 +11,13 @@ import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <main className="overflow-hidden bg-[#f6f1e7]">
-
       <Navbar />
 
       <Hero />
 
       <StorySection />
 
-      <ProductsSection />
+      <ProductsSection title={""} />
 
       <WhyChooseUs />
 
@@ -29,7 +28,6 @@ export default function Home() {
       <FeaturesBar />
 
       <Footer />
-
     </main>
   );
 }
